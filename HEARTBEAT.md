@@ -1,5 +1,5 @@
 # HEARTBEAT.md
 
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+# 11:50 检查是否需要提醒用户
 
-# Add tasks below when you want the agent to check something periodically.
+- 23:50 提醒登录云管家领取安徽天宇仪表电缆商机（今晚12点）

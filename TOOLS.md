@@ -1,5 +1,13 @@
 # TOOLS.md - Local Notes
 
+### 普渡机器人官网 (ahpudu.com)
+- 服务器：腾讯云 111.231.58.85
+- 宝塔面板：http://111.231.58.85:8888/tencentcloud
+- 账号：4cf161f4 / edf37c11455a
+- 网站：https://111.231.58.85
+- CMS后台：https://111.231.58.85/admin.php
+- CMS账号：admin / admin
+
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
 ## What Goes Here

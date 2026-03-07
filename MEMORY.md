@@ -2,6 +2,22 @@
 
 ---
 
+## 2026年3月7日 - 飞书插件Bug修复
+
+### 问题
+- 飞书渠道每次收到消息后返回错误：`<400> InternalError.Algo.InvalidParameter: Range of input length should be [1, 196608]`
+- 原因：飞书 dedup 缓存文件太大（~5KB），触发内部 AI 功能时超出阿里百炼 API 限制
+
+### 解决方案
+- 清理飞书去重缓存文件：`~/.openclaw/feishu/dedup/default.json`
+- 重启 OpenClaw Gateway
+
+### 语音合成功能
+- TTS 已配置完成，使用 macOS Ting-Ting 音色
+- 使用方式：发送"用语音回复 XXX"即可
+
+---
+
 ## 2026年3月4日 - 服务器与内网穿透配置记录
 
 ### 宝塔反向代理配置

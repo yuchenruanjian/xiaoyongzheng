@@ -1,5 +1,10 @@
 # TOOLS.md - Local Notes
 
+### Tesseract OCR
+- 路径：/opt/homebrew/bin/tesseract
+- 版本：5.5.2
+- 语言支持：chi_sim (简体中文), chi_tra (繁体中文), eng 等
+
 ### 普渡机器人官网 (ahpudu.com)
 - 服务器：腾讯云 111.231.58.85
 - 宝塔面板：http://111.231.58.85:8888/tencentcloud

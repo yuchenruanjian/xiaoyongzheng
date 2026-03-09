@@ -40,10 +40,7 @@
 - SSH密码：YUchen112233@
 
 ### 企业微信配置
-- AgentID：1000056
-- Secret：53bnVjU8s28ocmAiRg3veEDzu-YNcsVM2wDOutQhwKs
-- CorpID：ww429da5700b1144ed
-- 状态：需要配置 API 可信域名 ai.ycjdy.com
+（已删除敏感配置信息）
 
 ---
 

@@ -10,8 +10,11 @@
 - 宝塔面板：http://111.231.58.85:8888/tencentcloud
 - 账号：4cf161f4 / edf37c11455a
 - 网站：https://111.231.58.85
-- CMS后台：https://111.231.58.85/admin.php
+- CMS后台：https://www.ahpudu.com/admin.php
 - CMS账号：admin / admin
+- CMS：PbootCMS V3.1.2
+- WebAPI用户：yuchen
+- WebAPI密钥：yuchen112233@
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 

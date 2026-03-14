@@ -1,5 +1,10 @@
 # TOOLS.md - Local Notes
 
+### AI文章配图存储路径
+- 硬盘：AI文章配图 (YP硬盘)
+- 文件夹：AI文章配图
+- 用途：百家号、知乎等平台文章配图存储
+
 ### Tesseract OCR
 - 路径：/opt/homebrew/bin/tesseract
 - 版本：5.5.2

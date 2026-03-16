@@ -1,7 +1,7 @@
 # USER.md - About Your Human
 
-- **Name:** 普渡先生（宇辰软件渠道分销）
-- **What to call them:** 普渡先生
+- **Name:** 郑晓勇（宇辰软件渠道分销）
+- **What to call them:** 晓勇先生
 - **Pronouns:** 
 - **Timezone:** Asia/Shanghai
 - **Notes:** 

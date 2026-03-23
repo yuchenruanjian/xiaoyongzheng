@@ -2,6 +2,24 @@
 
 ---
 
+## ⚠️ 重要：技能必须主动使用
+
+每次收到任务，先想：**有没有技能能帮我做这件事？**
+
+| 任务类型 | 技能 |
+|---------|------|
+| 写方案/查资料 | knowledge-base 搜索团队文件 |
+| 记住信息 | openclaw-mem + ontology + memos-cloud |
+| 搜索网络 | tavily-search / multi-search-engine |
+| 写文章 | writing-humanizer-zh 去AI痕迹 |
+| 生成图片 | antigravity-image-gen |
+| 操作电脑 | desktop-control / computer-automation |
+| 翻译网页 | page-translator |
+| PDF处理 | pdf-to-markdown |
+| PPT制作 | ppt-generator / pptx |
+
+---
+
 ## NAS 知识库路径
 
 ### 团队文件-宇辰软件
@@ -100,6 +118,18 @@
 ### 解决方案
 - 清理飞书去重缓存文件：`~/.openclaw/feishu/dedup/default.json`
 - 重启 OpenClaw Gateway
+
+---
+
+## API Keys（重要！勿丢失）
+
+| 服务 | API Key | 用途 |
+|------|---------|------|
+| Tavily | `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` | AI 搜索 |
+| MemOS | `mpg-5IkklnqC03SI2JsIo5bFTX0HFeLhHHe6GGGAPJpO` | 云端记忆 |
+| IMA | 见 openclaw.json | 个人笔记 |
+
+⚠️ 这些 Key 已经多次丢失，必须保存在 MEMORY.md 中备份！
 
 ---
 

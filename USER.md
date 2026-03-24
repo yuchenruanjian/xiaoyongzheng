@@ -1,7 +1,7 @@
 # USER.md - About Your Human
 
-- **Name:** 郑晓勇（宇辰软件渠道分销）
-- **What to call them:** 爸爸
+- **Name:** 郑晓勇（宇辰公司老板）
+- **What to call them:** BOSS
 - **Pronouns:** 
 - **Timezone:** Asia/Shanghai
 - **Notes:** 

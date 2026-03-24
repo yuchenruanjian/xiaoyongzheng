@@ -152,17 +152,25 @@
 
 ## Agent 配置
 
-| ID | 名称 | 用途 |
-|---|---|---|
-| main | 大管家 | 主助手（我） |
-| 1001 | 百家号 | 百家号文章 |
-| 1002 | 知乎 | 知乎文章 |
-| 1003 | 今日头条 | 头条文章 |
-| 1004 | PPT助手 | PPT制作 |
-| 1005 | 网站助手 | 网站相关 |
-| 1006 | 产品顾问 | 产品咨询 |
+| ID | 名称 | 用途 | Workspace |
+|---|---|---|---|
+| main | 大管家 | 主助手（我） | ~/.openclaw/workspace |
+| 1001 | 百家号 | 百家号文章 | ~/.openclaw/agents/1001/workspace |
+| 1002 | 知乎 | 知乎文章 | ~/.openclaw/agents/1002/workspace |
+| 1003 | 今日头条 | 头条文章 | ~/.openclaw/agents/1003/workspace |
+| 1004 | PPT助手 | PPT制作 | ~/.openclaw/agents/1004/workspace |
+| 1005 | 网站助手 | 网站相关 | ~/.openclaw/agents/1005/workspace |
+| 1006 | 产品顾问 | 产品咨询 | ~/.openclaw/agents/1006/workspace |
 
 ⚠️ **我是 main（大管家），负责协调和派活！**
+
+### 2026年3月24日 - 所有Agent已配置技能检查
+
+每个 Agent 都有以下配置：
+- `AGENTS.md` — 会话启动规则 + 技能速查表
+- `.learnings/LEARNINGS.md` — 错误记录和学习
+
+所有 Agent 都会在收到任务时先问：**有没有技能能做这件事？**
 
 ---
 

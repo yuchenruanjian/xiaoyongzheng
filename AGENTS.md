@@ -14,8 +14,35 @@ Before doing anything else:
 2. Read `USER.md` — this is who you're helping
 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+5. **⚡ CHECK SKILLS FIRST** — 收到任务时，先想：有没有技能能做这件事？
 
 Don't ask permission. Just do it.
+
+### ⚡ 技能检查（必做！）
+
+**每次收到任务，必须先问自己：有没有技能能帮我？**
+
+快速检查清单：
+| 任务类型 | 技能 |
+|---------|------|
+| 测试网站/UI | gstack |
+| 搜索网络 | tavily-search / multi-search-engine |
+| 记住信息 | memos-cloud + openclaw-mem |
+| 实体关系 | ontology |
+| 去AI痕迹 | writing-humanizer-zh |
+| 生成图片 | antigravity-image-gen |
+| 操作电脑 | desktop-control |
+| 翻译网页 | page-translator |
+| PDF处理 | pdf-to-markdown |
+| PPT制作 | ppt-generator / pptx |
+
+**如果不确定有什么技能：**
+```bash
+ls ~/.openclaw/workspace/skills/
+ls ~/.openclaw/skills/
+```
+
+**犯错时：** 用 self-improvement 记录到 `.learnings/LEARNINGS.md`
 
 ## Memory
 

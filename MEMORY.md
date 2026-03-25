@@ -1,242 +1,47 @@
-# 大管家 - 技术档案
+# MEMORY.md - Long-Term Memory
+
+> Your curated memories. Distill from daily notes. Remove when outdated.
 
 ---
 
-## ⚠️ 重要：技能必须主动使用
+## About [Human Name]
 
-每次收到任务，先想：**有没有技能能帮我做这件事？**
+### Key Context
+[Important background that affects how you help them]
 
-| 任务类型 | 技能 |
-|---------|------|
-| 写方案/查资料 | knowledge-base 搜索团队文件 |
-| 记住信息 | openclaw-mem + ontology + memos-cloud |
-| 搜索网络 | tavily-search / multi-search-engine |
-| 写文章 | writing-humanizer-zh 去AI痕迹 |
-| 生成图片 | antigravity-image-gen |
-| 操作电脑 | desktop-control / computer-automation |
-| 翻译网页 | page-translator |
-| PDF处理 | pdf-to-markdown |
-| PPT制作 | ppt-generator / pptx |
+### Preferences Learned
+[Things you've discovered about how they like to work]
+
+### Important Dates
+[Birthdays, anniversaries, deadlines they care about]
 
 ---
 
-## NAS 知识库路径
+## Lessons Learned
 
-### 团队文件-宇辰软件
-**路径**：`/Volumes/团队文件-宇辰软件`
-
-**目录结构**（37个文件夹）：
-- A01个人组
-- A02金蝶软件工具包
-- A03用友软件工具包
-- A04管家婆软件工具包
-- A05浪潮易云产品工具包
-- A06来肯云商产品工具包
-- A07公司管理办法
-- A08实施交付
-- A09宇辰内部培训
-- A10速达软件工具包
-- A11代理授权证书
-- A12合同
-- A13工作总结
-- A14价格政策
-- A15企业荣誉
-- A16客户名单
-- A17炼刀AI
-- A18客户方案及报价单
-- A19客户对账单
-- A20宇辰样板客户
-- A21黑湖MES
-- A22吉客云
-- A23安捷云
-- A24客户意愿函
-- A25鼎华MES
-- A26面向客户
-- A27套打设计器
-- A28套打模板改就复制到桌面
-- A29勒索病毒政府文件
-- A30宇辰企业微信-员工个人二维码
-- A31远程工具
-- A32windows工具
-- A33收款码
-- A34客户诊断报告
-- A35信息化指导书
-- A36MAC软件
-- A37马鞍山数专
-
-### 团队文件-机器人项目
-**路径**：`/Volumes/团队文件-机器人项目`
-
-**目录结构**（9个文件夹）：
-- A01普渡
-- A02猎户星空
-- A03小笨机器人
-- A04锐曼机器人
-- A05宇树科技
-- A06九识物流车
-- A07上海仙工
-- A08塔斯克
-- A09仙工智能
+### [Date] - [Topic]
+[What happened and what you learned]
 
 ---
 
-## 网站信息
+## Ongoing Context
 
-### 普渡机器人官网 (ahpudu.com)
-- 服务器：腾讯云 111.231.58.85
-- 宝塔面板：http://111.231.58.85:8888/tencentcloud
-- 账号：4cf161f4 / edf37c11455a
-- 网站：https://111.231.58.85
-- CMS后台：https://www.ahpudu.com/admin.php
-- CMS账号：admin / admin
-- CMS：PbootCMS V3.1.2
+### Active Projects
+[What's currently in progress]
 
-### 金蝶软件官网 (ycjdy.com)
-- 同一服务器
+### Key Decisions Made
+[Important decisions and their reasoning]
+
+### Things to Remember
+[Anything else important for continuity]
 
 ---
 
-## 服务器配置
+## Relationships & People
 
-### 云服务器信息
-- IP：111.231.58.85
-- SSH端口：22
-- SSH密码：YUchen112233@
-
-### 反向代理
-- nas.ycjdy.com → 飞牛NAS (192.168.10.199:5666) ✅
-- ai.ycjdy.com → Mac (192.168.10.166:18789) 待配置
+### [Person Name]
+[Who they are, relationship to human, relevant context]
 
 ---
 
-## 2026年3月7日 - 飞书插件Bug修复
-
-### 问题
-- 飞书渠道每次收到消息后返回错误：`<400> InternalError.Algo.InvalidParameter: Range of input length should be [1, 196608]`
-- 原因：飞书 dedup 缓存文件太大（~5KB），触发内部 AI 功能时超出阿里百炼 API 限制
-
-### 解决方案
-- 清理飞书去重缓存文件：`~/.openclaw/feishu/dedup/default.json`
-- 重启 OpenClaw Gateway
-
----
-
-## API Keys（重要！勿丢失）
-
-| 服务 | API Key | 用途 |
-|------|---------|------|
-| Tavily | `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` | AI 搜索 |
-| MemOS | `mpg-5IkklnqC03SI2JsIo5bFTX0HFeLhHHe6GGGAPJpO` | 云端记忆 |
-| IMA | 见 openclaw.json | 个人笔记 |
-
-⚠️ 这些 Key 已经多次丢失，必须保存在 MEMORY.md 中备份！
-
----
-
-## 2026年3月16日 - 企业微信大米机器人配置
-
-### 配置信息
-- **Bot ID**: `aibhLk4UxD9-Is8iw32KODz3Yv__RBYW_cZ`
-- **Secret**: `J87avIGFR7AkVBoFezQwHzQpERyHetQ6GTpHBD9IWPB`
-- **dmPolicy**: `any`（允许所有私聊）
-
-### 配置位置
-`~/.openclaw/openclaw.json` → `channels.wecom`
-
-### 常见问题
-- 如果报 `invalid secret` 错误，需要去企业微信管理后台重新获取 Secret
-- 后台地址：https://work.weixin.qq.com/wework_admin/frame
-- 路径：应用管理 → 找到机器人应用 → 查看 Secret
-
----
-
-## Agent 配置
-
-| ID | 名称 | 用途 | Workspace |
-|---|---|---|---|
-| main | 大管家 | 主助手（我） | ~/.openclaw/workspace |
-| 1001 | 百家号 | 百家号文章 | ~/.openclaw/agents/1001/workspace |
-| 1002 | 知乎 | 知乎文章 | ~/.openclaw/agents/1002/workspace |
-| 1003 | 今日头条 | 头条文章 | ~/.openclaw/agents/1003/workspace |
-| 1004 | PPT助手 | PPT制作 | ~/.openclaw/agents/1004/workspace |
-| 1005 | 网站助手 | 网站相关 | ~/.openclaw/agents/1005/workspace |
-| 1006 | 产品顾问 | 产品咨询 | ~/.openclaw/agents/1006/workspace |
-
-⚠️ **我是 main（大管家），负责协调和派活！**
-
-### 2026年3月24日 - 所有Agent已配置技能检查
-
-每个 Agent 都有以下配置：
-- `AGENTS.md` — 会话启动规则 + 技能速查表
-- `.learnings/LEARNINGS.md` — 错误记录和学习
-
-所有 Agent 都会在收到任务时先问：**有没有技能能做这件事？**
-
----
-
-## 关键词路由规则（助理群：oc_463b2f283ea6688426f125fe0ad85f36）
-
-| 关键词 | Agent ID | Agent 名称 | 用途 |
-|---|---|---|---|
-| 管家、大管家、协调 | main | 大管家 | 通用任务、协调派活 |
-| 百家号 | 1001 | 百家号 | 百家号文章创作与发布 |
-| 知乎 | 1002 | 知乎 | 知乎文章创作与发布 |
-| 头条、今日头条 | 1003 | 今日头条 | 今日头条文章创作与发布 |
-| PPT、幻灯片 | 1004 | PPT助手 | PPT制作 |
-| 网站 | 1005 | 网站助手 | 网站相关事务 |
-| 产品、报价、功能 | 1006 | 产品顾问 | 产品咨询 |
-
-**路由优先级：**
-1. @指定优先 → @了谁就由谁处理
-2. 关键词路由 → 匹配关键词派给对应 Agent
-3. 默认兜底 → 无关键词时我直接处理
-
-**使用示例：**
-- "百家号：写一篇金蝶软件介绍" → 派给 1001
-- "PPT：做一个产品发布会演示稿" → 派给 1004
-- "帮我查一下今天的日程" → 我直接处理
-
----
-
-## 群组路由映射
-
-| 群组 ID | Agent | 用途 |
-|---|---|---|
-| oc_fa441dc0551d32e180a137c6bb1786f7 | 1001 百家号 | 百家号文章创作群 |
-| oc_5698a29e7b1c500390143ecf0e03e216 | **1003 今日头条** | **头条文章创作群（当前群）** |
-| oc_157babb3488785450cd3f588ba78f261 | 1004 PPT助手 | PPT制作群 |
-
-⚠️ 如果回复显示 `agent=main`，说明路由未生效，需重启 Gateway
-
----
-
-## 文章发布规范（重要！）
-
-### 金蝶软件文章
-- **官网**：www.ycjdy.com（必须带上）
-- **电话**：15855000501（必须带上）
-- **产品线**：精斗云、金蝶AI星辰、金蝶AI星空
-
-### 普渡机器人文章
-- **官网**：www.ahpudu.com（必须带上）
-- **电话**：15855000501（必须带上）
-- **产品线**：工业机器人、清洁机器人
-- **不做产品**：❌ 送餐机器人、❌ 酒店服务机器人（写文章时切勿提及！）
-
-### 发布文章时的检查清单
-1. 文章末尾必须带上对应官网和电话
-2. 普渡文章绝对不能出现送餐机器人、酒店服务机器人
-3. 产品线要写对，不要写不做的产品
-
-### ⚠️ 文章人性化处理（必做！）
-**所有百家号、知乎、今日头条文章，发布前必须使用 `writing-humanizer-zh` 技能处理！**
-
-原因：2026年3月20日三大平台同时封号，原因是"可能包含AI创作内容"
-
-处理要点：
-- 删除AI高频词：此外、至关重要、深入探讨、格局、标志着、体现了
-- 打破三段式法则：避免"A、B、C"结构，改为两项或四项
-- 删除夸大意义：如"关键转折点"、"深远影响"
-- 删除模糊归因：如"专家认为"、"业内人士表示"
-- 加入个人元素：真实案例、第一人称、口语化表达
-- 变化句子节奏：长短句交错，避免机械重复
+*Review and update periodically. Daily notes are raw; this is curated.*

@@ -4,43 +4,33 @@
 
 ---
 
-## About [Human Name]
+## 核心信息
+| 项目 | 内容 |
+|------|------|
+| 用户名 | 郑晓勇 |
+| 公司 | 安徽宇辰软件技术有限公司 |
+| 职位 | 总经理 |
 
-### Key Context
-[Important background that affects how you help them]
+## 系统配置
+| 配置 | 状态 |
+|------|------|
+| AI记忆系统 | ✅ 已启用（2026-03-27） |
+| 技能数量 | 待统计 |
 
-### Preferences Learned
-[Things you've discovered about how they like to work]
+## 沟通偏好
+- 称呼：郑晓勇
+- 风格：简洁直接，不废话
+- 反馈：任务完成后主动回复
 
-### Important Dates
-[Birthdays, anniversaries, deadlines they care about]
+## 重要决策
+- 2026-03-27: 启用AI记忆系统完整规范
+- 2026-03-27: 完成记忆目录结构初始化
 
----
-
-## Lessons Learned
-
-### [Date] - [Topic]
-[What happened and what you learned]
-
----
-
-## Ongoing Context
-
-### Active Projects
-[What's currently in progress]
-
-### Key Decisions Made
-[Important decisions and their reasoning]
-
-### Things to Remember
-[Anything else important for continuity]
-
----
-
-## Relationships & People
-
-### [Person Name]
-[Who they are, relationship to human, relevant context]
+## 待办事项
+- [ ] 梳理现有技能清单
+- [ ] 完善心跳检查配置
+- [ ] 配置技能调度系统
+- [ ] 排查CRM接口字段配置错误，修正后验证API调用
 
 ---
 
